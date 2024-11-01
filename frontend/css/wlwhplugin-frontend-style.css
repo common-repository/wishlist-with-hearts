@@ -1,0 +1,119 @@
+/******************************
+   WISH LIST
+******************************/
+
+
+.wish-box{
+
+    position: absolute;
+
+    font-size:1.4rem;
+    z-index: 100;
+    height: 33px;
+    width: 33px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    border-color: #c0c0c0;
+    background-color: #fff;
+}
+
+.wish-box-topleft{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+
+.wish-box_hover{
+
+}
+
+
+.wish-box .fa-heart {
+    position: absolute;
+    visibility: hidden;
+    left: 7px;
+    top: 8px;
+    font-size: 18px;
+    transform: scale(.2);
+    transition: all 0.4s ease-out;
+    opacity: 0;
+}
+
+.fa-heart{
+    left: 0;
+}
+
+.wish-box .fa-heart-o {
+    left: 0;
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    font-size: 18px;
+}
+
+.wish-box[data-exists="yes"] .fa-heart {
+    position: absolute;
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+}
+
+.wish-box[data-exists="yes"] .fa-heart-o {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.wish-box_hover{
+
+}
+
+.wish-box_hover:hover {
+
+}
+
+
+.wish-button{
+    background-color: #e8e8eb;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+    color: #000000;
+    padding: 12px;
+    width: fit-content;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.wish-button:hover{
+    color: inherit;
+}
+
+.wish-button:active {
+  transform: translateY(4px);
+}
+
+.added-wish {
+  position: fixed;
+  text-align: left;
+  font-weight: 300;
+  font-size: 1em;
+  font-style: normal;
+}
+
+
+.hidden  {
+  display: none;
+}
+
+.show {
+
+}
+
+.wish-header {
+  text-align: center;
+}
